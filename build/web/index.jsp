@@ -29,7 +29,7 @@
                     <tr>
                         <td>Email</td>
                         <td>:</td>
-                        <td></td>
+                        <td><input type="text" name="temail" value="" size="50" /></td>
                     </tr>
                     <tr>
                         <td>Jenis Kelamin</td>
@@ -42,11 +42,12 @@
                     <tr>
                         <td>Tanggal Lahir</td>
                         <td>:</td>
-                        <td></td>
+                        <td><input type="date" name="tnamabelakang" value="" size="50" /></td>
                     </tr>
                 </tbody>
             </table>
-
+            <input type="reset" value="Clear" name="clear" />
+            <input type="submit" value="Simpan" name="simpan" />
         </form>
     </body>
 </html>
