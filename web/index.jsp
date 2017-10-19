@@ -14,6 +14,39 @@
     <body>
         <h1>Form Pertama</h1>
         <form name="myForm" action="display.jsp" method="POST">
+            <table border="0">
+                <tbody>
+                    <tr>
+                        <td>Nama Depan</td>
+                        <td>:</td>
+                        <td><input type="text" name="tnamadepan" value="" size="50" /></td>
+                    </tr>
+                    <tr>
+                        <td>Nama Belakang</td>
+                        <td>:</td>
+                        <td><input type="text" name="tnamabelakang" value="" size="50" /></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td><select name="jk">
+                                <option>LAKI-LAKI</option>
+                                <option>PEREMPUAN</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
         </form>
     </body>
 </html>
