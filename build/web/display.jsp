@@ -22,6 +22,34 @@
            
             %>
             
-        
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td>Nama Depan</td>
+                        <td>:</td>
+                        <td><%= namaDepan %></td>
+                    </tr>
+                    <tr>
+                        <td>Nama Belakang</td>
+                        <td>:</td>
+                        <td><%= namaBelakang %></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><%= email %></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td><%= jk %></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td><%= tanggalLahir %></td>
+                    </tr>
+                </tbody>
+            </table>
     </body>
 </html>
