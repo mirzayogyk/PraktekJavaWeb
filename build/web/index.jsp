@@ -42,7 +42,7 @@
                     <tr>
                         <td>Tanggal Lahir</td>
                         <td>:</td>
-                        <td><input type="date" name="tnamabelakang" value="" size="50" /></td>
+                        <td><input type="date" name="ttanggallahir" value="" size="50" /></td>
                     </tr>
                 </tbody>
             </table>
