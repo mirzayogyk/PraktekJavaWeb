@@ -3,7 +3,9 @@
     Created on : Oct 19, 2017, 8:50:36 AM
     Author     : mirza
 --%>
-
+<%@page import="java.sql.*"%>
+<%@page import="java.util.Date"%>
+<% Class.forName("com.mysql.jdbc.Driver"); %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
