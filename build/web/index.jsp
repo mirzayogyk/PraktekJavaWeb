@@ -13,7 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Praktikum Java Web</title>
     </head>
-    <body>
+    <body onload="tampilPesan()">
         <h1>Form Pertama</h1>
         <%!
           public class Anggota{
@@ -113,8 +113,16 @@
                     </tr>
                 </tbody>
             </table>
+            <input type="hidden" value="<%= result %>" name="hidden" />
             <input type="reset" value="Clear" name="clear" />
             <input type="submit" value="Simpan" name="simpan" />
         </form>
+        <script language="JavaScript">
+             function tampilPesan(){
+                 if(document.myForm.hidden.value == 1 ){
+                     alert("Data berhasil disimpan");
+                 }
+             }  
+        </script>
     </body>
 </html>
