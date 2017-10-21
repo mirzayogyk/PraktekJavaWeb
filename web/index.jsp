@@ -37,6 +37,7 @@
                                                 USERNAME,
                                                 PASSWORD);
                     insertAnggota = connection.prepareStatement(insertSQL);
+                    selectAnggota = connection.prepareStatement(selectSQL);
                 }catch(SQLException e){
                     e.printStackTrace();
                 }
