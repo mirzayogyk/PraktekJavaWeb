@@ -15,7 +15,7 @@
     </head>
     <body>
         <h1>Form Pertama</h1>
-        <form name="myForm" action="display.jsp" method="POST">
+        <form name="myForm" action="index.jsp" method="POST">
             <table border="0">
                 <tbody>
                     <tr>
