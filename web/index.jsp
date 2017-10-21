@@ -91,6 +91,9 @@
              result = anggota.setAnggota(namaDepan, namaBelakang, email, 
                      jenisKelamin, tanggalLahir, ts);             
         }      
+
+        Anggota anggota = new Anggota();
+        ResultSet anggotas = anggota.getAnggota();
          %>
         <form name="myForm" action="index.jsp" method="POST">
             <table border="0">
