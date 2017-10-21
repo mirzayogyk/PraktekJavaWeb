@@ -27,6 +27,18 @@
 
             Connection connection = null;
             PreparedStatement insertAnggota = null;
+
+             public Anggota(){
+                try{
+                    connection = DriverManager.getConnection(URL,
+                                                USERNAME,
+                                                PASSWORD);
+                    insertAnggota = connection.prepareStatement(insertSQL);
+                }catch(SQLException e){
+                    e.printStackTrace();
+                }
+            }
+
         %>
         <form name="myForm" action="index.jsp" method="POST">
             <table border="0">
